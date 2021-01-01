@@ -22,6 +22,11 @@ sections:
 - type: heading
   label: Collections
 - type: directory
+  path: _projects
+  label: Projects
+  create: documents
+  match: "*.md"
+- type: directory
   path: _recipes
   label: Recipes
   create: documents
