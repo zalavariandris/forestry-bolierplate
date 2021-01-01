@@ -16,3 +16,8 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: gallery
+  type: include
+  config: {}
+  template: figure
+  label: Gallery
