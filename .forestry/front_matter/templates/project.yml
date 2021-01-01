@@ -19,8 +19,18 @@ fields:
 - name: gallery
   type: field_group_list
   fields:
-  - type: text
-    name: description
   - type: file
     name: image
-
+    label: Image
+  - type: text
+    name: description
+    label: Description
+  label: Gallery
+- name: gallery2
+  type: blocks
+  label: Gallery2
+  template_types:
+  - figure
+  config:
+    min: 
+    max: 
