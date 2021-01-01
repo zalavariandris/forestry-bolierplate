@@ -16,7 +16,3 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: gallery
-  type: image_gallery
-  config: {}
-  label: Gallery
