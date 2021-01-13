@@ -26,9 +26,6 @@ sections:
   label: Projects
   create: documents
   match: "*.md"
-  templates:
-  - project2
-  - project
 - type: directory
   path: _recipes
   label: Recipes
