@@ -1,4 +1,27 @@
 ---
 label: Project2
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: gallery2
+  type: include
+  config: {}
+  template: figure
+  label: gallery2
